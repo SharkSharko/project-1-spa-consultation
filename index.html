@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Consultation & Updates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Crypto Consultation & Updates</h1>
+        <nav>
+            <button id="home-btn">Home</button>
+            <button id="updates-btn">Crypto Updates</button>
+            <button id="consult-btn">Book Consultation</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Crypto Insights</h2>
+            <p>Get the latest updates on digital currencies and book expert consultations.</p>
+        </section>
+
+        <section id="updates" style="display:none;">
+            <h2>Latest Crypto Updates</h2>
+            <div id="crypto-container"></div>
+        </section>
+
+        <section id="consultation" style="display:none;">
+            <h2>Book a Consultation</h2>
+            <form id="consult-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
