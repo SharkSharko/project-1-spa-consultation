@@ -1,0 +1,16 @@
+{
+    "cryptoUpdates": [
+      {
+        "id": 1,
+        "name": "Bitcoin",
+        "price": "$65,000"
+      },
+      {
+        "id": 2,
+        "name": "Ethereum",
+        "price": "$3,200"
+      }
+    ],
+    "consultations": []
+  }
+  
